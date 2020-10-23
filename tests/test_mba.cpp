@@ -37,7 +37,7 @@ TEST_CASE( "Control lattice" ) {
     }
 
     SECTION("Sparse") {
-        mba::detail::control_lattice_sparse<2> phi(
+        mba::detail@::control_lattice_sparse<2> phi(
                 lo, hi, grid,
                 std::begin(coo), std::end(coo), std::begin(val)
                 );
